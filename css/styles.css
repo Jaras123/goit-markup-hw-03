@@ -1,0 +1,134 @@
+:root {
+  --color: #212121;
+  --family: "Roboto", "Raleway", "OleoScript", sans-serif;
+  --weight: 700;
+  --spacing: 0.03em;
+}
+body {
+  color: var(--color);
+  font-family: var(--family);
+  font-weight: var(--weight);
+  letter-spacing: var(--spacing);
+}
+.logo1 {
+  font-family: "Raleway";
+  color: #2196f3;
+  font-size: 26px;
+}
+.logo2 {
+  font-family: "OleoScript";
+  color: #000000;
+  font-size: 26px;
+  font-weight: 400;
+}
+.logo3 {
+  font-family: "OleoScript";
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 400;
+}
+.nav {
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+  color: #212121;
+  font-size: 14px;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 139%;
+  background-color: #f5f4fa;
+  border: none;
+  text-align: center;
+  font-family: inherit;
+}
+.order {
+  font-size: 16px;
+  line-height: 160%;
+  background-color: #2196f3;
+  text-align: center;
+  color: white;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  margin-bottom: 50px;
+}
+.button:hover,
+.button:focus {
+  cursor: pointer;
+  background-color: #2196f3;
+  color: white;
+}
+.section {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+}
+.big-title {
+  font-size: 44px;
+  line-height: 116%;
+}
+.post-title {
+  font-size: 14px;
+}
+.post-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 146%;
+  color: #757575;
+}
+.what-we-do {
+  text-align: center;
+  font-size: 36px;
+}
+.team {
+  text-align: center;
+  font-size: 36px;
+}
+.name {
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+}
+.job {
+  font-weight: 400;
+  text-align: center;
+  color: #757575;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #2f303a;
+  font-weight: 400;
+  color: white;
+}
+.contact-down {
+  color: white;
+  opacity: 60%;
+}
+.list {
+  list-style-type: none;
+}
+.contact-up {
+  color: #757575;
+  letter-spacing: 0.02em;
+}
+.title {
+  font-size: 16px;
+  text-align: center;
+  line-height: 171%;
+  letter-spacing: 0.06em;
+}
+.description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #757575;
+  text-align: center;
+  line-height: 160%;
+}
